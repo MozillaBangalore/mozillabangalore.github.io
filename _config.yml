@@ -4,7 +4,7 @@ email:       bangalore.in@coderdojo.com
 author:      Galaxy Kadiyala
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "http://coderdojoblr.github.io"
+url:         "http://coderdojoblr.org"
 
 # Google analytics
 google_analytics:
