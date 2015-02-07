@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
+title:       CoderDojo BLR
+email:       bangalore.in@coderdojo.com
+author:      Galaxy Kadiyala
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://coderdojoblr.github.io"
 
 # Google analytics
 google_analytics:
@@ -20,9 +20,9 @@ disqus_shortname:
 
 # Social icons
 show_social_icons: false
-github_username:
+github_username: CoderDojoBLR
 stackoverflow_id:
-twitter_username:
+twitter_username: CoderDojoBLR
 google_plus_id:
 linkedin_username:
 bitcoin_url:
