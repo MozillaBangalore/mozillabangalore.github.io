@@ -3,17 +3,18 @@ layout: page
 title: About Us
 permalink: /about/
 ---
+<h4>CoderDojo BLR</h4>
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+<p align="justify">CoderDojo BLR is a volunteer run that teaches web and app development to youth ages 7 to 21 supporting the global CoderDojo movement in different cities in India.</p>
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+<p align="justify">Our mission is to create a fun, practical and a collaborative environment.</p>
 
-Thanks to the following:
+<p align="justify">Galaxy Kadiyala, Vineel Reddy & Gauthamraj Elango co-founded the Bangalore chapter in 2014. We've grown our network to different cities in just 4 months. CoderDojo Coimbatore & CoderDojo Hyderabad are the new clubs that'll be starting the activities from Feb 2015.</p>
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Solarized](http://ethanschoonover.com/solarized)
+<p align="justify">We are supported by <a href="http://mozilla.org/">Mozilla</a> & <a href="http://collab.house/">Collab House</a>.</p>
+
+<h4>CoderDojo</h4>
+
+<p align="justify">CoderDojo is a global movement of free coding clubs for youth that began in Ireland.</p>
+
+<p align="justify">CoderDojo was founded by James Whelton and Bill Liao in 2012. There are now over 400 chapters in 40 countries around the globe.</p>
