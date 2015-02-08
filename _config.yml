@@ -2,7 +2,7 @@
 title:       CoderDojo BLR
 email:       bangalore.in@coderdojo.com
 author:      Galaxy Kadiyala
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "We are a volunteer group based in Bangalore, India teaching kids about web and app development."
 baseurl:     ""
 url:         "http://coderdojoblr.org"
 
@@ -10,7 +10,7 @@ url:         "http://coderdojoblr.org"
 google_analytics:
 
 # Optional features
-animated:           false
+animated:           true
 show_related_posts: false
 show_post_footers:  false
 
