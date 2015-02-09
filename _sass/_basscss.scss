@@ -752,3 +752,164 @@ a:hover {
 .transition-all {
   transition: all .2s ease;
 }
+
+/* The spacing between columns. */
+$column-gutter-width: 4%;
+
+/* The number of columns in a row. */
+$num-columns: 12;
+
+/* Columns will stack on screens less than this wide. */
+$stack-width: 768px;
+
+/* Columns must be put in an element with the "row" class. */
+.row {
+  *zoom: 1;
+
+  &:before, &:after {
+    display: table;
+    content: "";
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+/* Inside a ".row", add ".spanX" elements to fill the grid, where X is the number of columns to span. */
+/* Add ".offsetX" to ".spanX" elements to skip X columns of empty space. */
+@for $i from 1 through $num-columns {
+  .span#{$i} {
+    float: left;
+    *zoom: 1;
+
+    &:before, &:after {
+      display: table;
+      content: "";
+    }
+    &:after {
+      clear: both;
+    }
+  }
+}
+
+@for $i from 1 through $num-columns {
+  .row > .span#{$i} {
+    width: (100% + $column-gutter-width) * ($i / $num-columns) - $column-gutter-width;
+    *width: (100% + $column-gutter-width) * ($i / $num-columns) - $column-gutter-width - 50% / ($stack-width / 1px);
+    margin-left: $column-gutter-width;
+    *margin-left: $column-gutter-width - 50% / ($stack-width / 1px);
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+@for $i from 1 through $num-columns {
+  .row > .offset#{$i} {
+    margin-left: $column-gutter-width + (100% + $column-gutter-width) * ($i / $num-columns);
+    *margin-left: $column-gutter-width + (100% + $column-gutter-width) * ($i / $num-columns) - 50% / ($stack-width / 1px);
+
+    &:first-child {
+      margin-left: (100% + $column-gutter-width) * ($i / $num-columns);
+      *margin-left: (100% + $column-gutter-width) * ($i / $num-columns) - 50% / ($stack-width / 1px);
+    }
+  }
+}
+
+@for $i from 1 through $num-columns {
+  @for $j from 1 through ($i - 1) {
+    .span#{$i} > .span#{$j} {
+      $scale_factor: 100% / ((100% + $column-gutter-width) * ($i / $num-columns) - $column-gutter-width);
+      width: ((100% + $column-gutter-width) * ($j / $num-columns) - $column-gutter-width) * $scale_factor;
+      *width: ((100% + $column-gutter-width) * ($j / $num-columns) - $column-gutter-width) * $scale_factor - 50% / (($stack-width / 1px) * $num-columns / $i);
+      margin-left: $column-gutter-width * $scale_factor;
+      *margin-left: $column-gutter-width * $scale_factor - 50% / (($stack-width / 1px) * $num-columns / $i);
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+@for $i from 1 through $num-columns {
+  @for $j from 1 through ($i - 1) {
+    .span#{$i} > .offset#{$j} {
+      $scale_factor: 100% / ((100% + $column-gutter-width) * ($i / $num-columns) - $column-gutter-width);
+      margin-left: ($column-gutter-width + (100% + $column-gutter-width) * ($j / $num-columns)) * $scale_factor;
+      *margin-left: ($column-gutter-width + (100% + $column-gutter-width) * ($j / $num-columns)) * $scale_factor - 50% / (($stack-width / 1px) * $num-columns / $i);
+
+      &:first-child {
+        margin-left: (100% + $column-gutter-width) * ($j / $num-columns) * $scale_factor;
+        *margin-left: (100% + $column-gutter-width) * ($j / $num-columns) * $scale_factor - 50% / (($stack-width / 1px) * $num-columns / $i);
+      }
+    }
+  }
+}
+
+/* Stack the grid on small displays. */
+@media (max-width: ($stack-width - 1)) {
+  @for $i from 1 through $num-columns {
+    .span#{$i} {
+      margin-top: inherit;
+      margin-bottom: inherit;
+      float: none;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @for $i from 1 through $num-columns {
+    .row > .span#{$i} {
+      width: 100%;
+      *width: 100%;
+      margin-left: 0;
+      *margin-left: 0;
+    }
+  }
+
+  @for $i from 1 through $num-columns {
+    .row > .offset#{$i} {
+      margin-left: 0;
+      *margin-left: 0;
+
+      &:first-child {
+        margin-left: 0;
+        *margin-left: 0;
+      }
+    }
+  }
+
+  @for $i from 1 through $num-columns {
+    @for $j from 1 through ($i - 1) {
+      .span#{$i} > .span#{$j} {
+        width: 100%;
+        *width: 100%;
+        margin-left: 0;
+        *margin-left: 0;
+      }
+    }
+  }
+
+  @for $i from 1 through $num-columns {
+    @for $j from 1 through ($i - 1) {
+      .span#{$i} > .offset#{$j} {
+        margin-left: 0;
+        *margin-left: 0;
+
+        &:first-child {
+          margin-left: 0;
+          *margin-left: 0;
+        }
+      }
+    }
+  }
+}
