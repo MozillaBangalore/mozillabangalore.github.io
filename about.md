@@ -32,7 +32,7 @@ permalink: /about/
       <td>
 <h4><center>Co-Founders</center></h4><br></br>
 <p><img src="http://gravatar.com/avatar/f524eb81c5dcb48e672a27be4910de1c.png?s=190">
-<p><center><a href="http://twitter.com/GalaxyK">Galaxy Kadiyala</a></center></p>
+<p><center><font size="2"><a href="http://twitter.com/GalaxyK">Galaxy Kadiyala</a></center></font></p>
 </td>
    </tr>
 </table>

@@ -1,20 +1,7 @@
 @charset "UTF-8";
-/*
-
-  Pixyll
-
-  A simple, beautiful theme for Jekyll that emphasizes content rather than
-  aesthetic fluff.
-
-  Best served with BASSCSS (http://jxnblk.github.io/basscss)
-
-  Crafted with <3 by John Otander (@4lpine) - ©2015 John Otander
-  MIT License http://opensource.org/licenses/MIT
-
-*/
 
 body {
-  font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "Open Sans", "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
   font-weight: 300;
 }
 
@@ -178,7 +165,7 @@ table {
 .pagination,
 .button {
   font-size: 1rem;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   text-align: center;
 }
@@ -241,7 +228,7 @@ table {
 }
 
 form {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Open Sans', 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   font-size: 1rem;
 }
@@ -308,8 +295,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: 900;
+  font-family: "Open Sans", "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 700;
   line-height: 1.2;
   margin: 1em 0 0.5em;
 }
@@ -495,7 +482,7 @@ footer,
 footer .wrap {
   color: #7a7a7a;
   background-color: #fafafa;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   clear: both;
 }

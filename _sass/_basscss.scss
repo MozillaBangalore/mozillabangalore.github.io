@@ -1,14 +1,5 @@
 @charset "UTF-8";
-/*
 
-  BASSCSS
-
-  Next-level CSS toolkit - http://jxnblk.github.io/basscss
-
-  Made with love by Jxnblk - ©2014 Brent Jackson
-  MIT License http://opensource.org/licenses/MIT
-
-*/
 body, button, input, select, textarea, pre {
   margin: 0;
 }
@@ -28,7 +19,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
   line-height: 1.5rem;
   font-weight: 400;
 }
