@@ -1,4 +1,4 @@
 #CoderDojo BLR
 
-Open [coderdojoblr.org](http://coderdojoblr.org) for more details on the initiative!
-<br>Thanks.
+Check [coderdojoblr.org](http://coderdojoblr.org) for more details on the activities, events and resources.
+
