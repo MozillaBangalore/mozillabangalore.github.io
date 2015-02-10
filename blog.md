@@ -4,4 +4,4 @@ title: Blog
 permalink: /blog/
 ---
 
-[Hello World]({% post_url 2015-02-01-hello-world %})
+[Hello Ninja's]({% post_url 2015-02-01-hello-ninja's %})
