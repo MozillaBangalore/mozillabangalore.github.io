@@ -5,42 +5,42 @@ layout: default
 <p align="center">CoderDojo BLR is a volunteer run initiative. We teach web and app development to youth ages 7 to 21 supporting the global CoderDojo movement in different cities across India.</p>
 
 <div class="row">
-  <div class="span6">
+  <div class="span4">
 
-<p>Supported By</p>
+      <h6>How do we operate?</h6>
+        <p align="justify">We have an active network of community supported by Mozilla India, Collab House & Hive Bangalore. We host digital literacy workshops at schools, colleges and at our partner spaces...<a href="{{ site.baseurl }}/about"> more</a></p>
+        
+</div>
 
-<p><a href="{{ site.baseurl }}/partners"><img scr="/images/me.jpg" width="256" height="256"></a></p>
-<p><a href="{{ site.baseurl }}/partners"><img scr="/images/collabhouse.png" width="256" height="256"></a></p>
-<p><a href="{{ site.baseurl }}/partners"><img scr="/images/hive.jpg" width="256" height="256"></a></p>
+<div class="span4">
 
+    <h6>Event Locations</h6>
+    <p align="justify">We host most of the events at our partner spaces.</p> 
+    <p align="justify">The <a href="http://bit.ly/mozspaceblr">Mozilla Community Space Bangalore</a> and<a href="http://collab.house"> Collab House Hyderabad</a>.</p>
+    <p align="justify">Sign up <a href="{{ site.baseurl }}/events">here</a> for the next event.</p>
 
 </div>
 
+<div class="span4">
 
-
-
-
-
-<div class="span6">
-
-
-
-</div>
+    <h6>Love volunteering?</h6>
+    <p align="justify">Send us a quick <a href="mailto:bangalore.in@coderdojo.com">email</a> and we'll get back to you with details.</p>
+  
 </div>
 
-
-
+</div>
 
 
 <div class="home">
 
+<h4>Latest Blogposts</h4>
   <div class="posts">
     {% for post in paginator.posts %}
       <div class="post">
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <h3 class="h2 post-title">{{ post.title }}</h3>
-          <p class="post-summary">{{ post.summary }}</p>
+          <h4 class="h4 post-title">{{ post.title }}</h4>
+          <p class="post-summary"><small>{{ post.summary }}</p></small>
         </a>
       </div>
     {% endfor %}
@@ -48,3 +48,16 @@ layout: default
 
   {% include pagination.html %}
 </div>
+
+<center><p><h5>Supported By</h5></p></center>
+<center>
+<br> 
+<a href="{{ site.baseurl }}/partners"><img src="/images/mozilla.jpg" width="180" height="120"></a>
+<a href="{{ site.baseurl }}/partners"><img src="/images/collabhouse.png" width="180" height="120"></a> &nbsp;
+<a href="{{ site.baseurl }}/partners"><img src="/images/hive.jpg" width="200" height="100"></a>
+
+</center>
+
+
+
+
