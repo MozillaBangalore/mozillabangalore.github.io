@@ -1,4 +1,4 @@
-#CoderDojo BLR
+#Mozilla Community Space Bangalore
 
-Check [coderdojoblr.org](http://coderdojoblr.org) for more details on the activities, events and resources.
+Check [mozillabangalore.github.io](http://mozillabangalore.github.io) for more details on the activities, events and resources.
 

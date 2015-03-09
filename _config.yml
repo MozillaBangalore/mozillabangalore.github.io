@@ -1,10 +1,10 @@
 # Site settings
-title:       CoderDojo BLR
-email:       bangalore.in@coderdojo.com
+title:       Mozilla Community Space Bangalore
+email:       igalaxyk@gmail.com
 author:      Galaxy Kadiyala
-description: "We are a volunteer group based in Bangalore, India teaching kids about web and app development."
+description: "We are one of the Mozilla volunteer-run spaces around the world that help attract talent, strengthen community cohesion, become a major contribution funnels, and ultimately play a critical role in supporting Mozilla’s mission."
 baseurl:     ""
-url:         "http://coderdojoblr.org"
+url:         "http://mozillabangalore.github.io"
 
 # Google analytics
 google_analytics:
@@ -20,10 +20,10 @@ disqus_shortname: galaxyk
 
 # Social icons
 show_social_icons: true
-github_username: CoderDojoBLR
-facebook_id: coderdojoindia
-twitter_username: CoderDojoBLR
-google_plus_id:
+github_username: MozillaBangalore
+facebook_id: mozillabangalore
+twitter_username: MozSpaceBLR
+google_plus_id: 103287207997822666808
 linkedin_username:
 bitcoin_url:
 paypal_url: 
