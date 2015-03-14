@@ -3,7 +3,7 @@ layout: post
 title: "FirefoxOS - Bachchao Project"
 date: 2015-02-08 00:00:03
 summary: Building social impact apps for FirefoxOS
-categories: blog firefoxos
+categories: firefoxoshackathon
 ---
 
 <p align="justify"><a href="http://mozillaindia.org">Mozilla India</a> in association with <a href="http://thebachchaoproject.org">The Bachchao Project</a> hosted a <a href="https://www.facebook.com/events/749456168472296/">FirefoxOS hack day</a> yesterday at <a href="https://plus.google.com/103287207997822666808">The Mozilla Community Space Bangalore</a>.</p>

@@ -3,7 +3,7 @@ layout: post
 title: "Announcing Mozilla Community Space Bangalore"
 date: 2014-11-26 00:00:03
 summary: and we are officially live!
-categories: blog
+categories: MozSpaceBLR
 ---
 <p align="justify">Exciting time, Mozillians!</p>
 

@@ -3,7 +3,7 @@ layout: post
 title: "Mozilla L10N Sprint"
 date: 2015-02-15 00:00:03
 summary: L10N hackathon in India
-categories: blog l10n
+categories: l10n
 ---
 
 <p align="justify">This was the first time a localization meetup was held in the southern part of India, which helped localizers nearby bangalore to join for a 2 day hackathon at the community space.</p>

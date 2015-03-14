@@ -3,7 +3,7 @@ layout: post
 title: "FirefoxOS Intensive Workshop"
 date: 2014-11-16 00:00:03
 summary: A hackathon focussed on building local content apps
-categories: blog firefoxos
+categories: firefoxoshackathon
 ---
 <p align="justify"><a href="https://twitter.com/dietrich">Dietrich Ayala</a>, joined us to conduct a two-day intensive workshop in Bangalore at the community space, focused on Firefox OS advanced application development, covering topics such as user research, developer tools, performance, power and data efficiency, toolkits and libraries, debugging, all with a focus on the 128MB devices shipping in India today.</p>
 

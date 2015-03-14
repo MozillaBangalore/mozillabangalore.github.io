@@ -2,12 +2,19 @@
 layout: default
 ---
 
+<center><img src="/images/blrcommunity.jpg"></center>
+
+<p></p>
+
 <p align="center">We are one of the Mozilla volunteer-run spaces around the world that help attract talent, strengthen community cohesion, become a major contribution funnels, and ultimately play a critical role in supporting Mozilla’s mission.</p>
 
-
-<div class="home">
-
-<h4>Latest Blogposts</h4>
+<div class="row">
+<div class="span6">
+<h6>How do we operate?</h6>
+<p align="justify">We have an active network of community supported by Mozilla India, Collab House & Hive Bangalore. We host digital literacy workshops at schools, colleges and at our partner spaces...<a href="{{ site.baseurl }}/about"> more</a></p>
+</div>
+<div class="span6">
+<h6>Latest Blogposts</h6>
   <div class="posts">
     {% for post in paginator.posts %}
       <div class="post">
@@ -20,7 +27,7 @@ layout: default
     {% endfor %}
   </div>
 
-  {% include pagination.html %}
+</div>
 </div>
 
 <center>

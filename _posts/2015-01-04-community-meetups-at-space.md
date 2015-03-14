@@ -3,7 +3,7 @@ layout: post
 title: "Open Source & Community Meetups"
 date: 2015-01-04 00:00:03
 summary: Community events and metups happening at the space
-categories: blog meetups
+categories: meetup
 ---
 
 <p align="justify">For the past few months, <a href="http://mozillabangalore.github.io">Mozilla Community Space Bangalore</a> has been the host for few of the amazing open source communities in Bangalore.</p>

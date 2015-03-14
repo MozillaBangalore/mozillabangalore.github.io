@@ -3,7 +3,7 @@ layout: post
 title: "Bangalore Design Evenings"
 date: 2014-12-22 00:00:01
 summary: To enable interactive discussions
-categories: blog design
+categories: design
 ---
 
 <p align="justify"><a href="http://designevening.com/">Bangalore Design Evenings</a> are broad by design – the goal of these recurring weekly meets is to enable interactive discussions and allow Designers as well as Design Enthusiasts to learn from each other in real time. Design Evenings core collective comprises of Kavita Arora and Venkatesh Bilvam.</p>

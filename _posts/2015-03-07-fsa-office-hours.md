@@ -3,7 +3,7 @@ layout: post
 title: "FSA Office Hours"
 date: 2015-03-07 00:00:03
 summary: Now we are hosting Office Hours every month
-categories: blog fsa
+categories: fsa
 ---
 
 <p align="justify">One of the outcome from the <a href="https://wiki.mozilla.org/StudentAmbassadors/ExecutiveBoard/Roles">FSA Executive Board</a> meeting at Portland Work Week in December, 2014 was to have Office Hours every month. <a href="https://wiki.mozilla.org/StudentAmbassadors/Activities">Office Hour</a> is a monthly online meetup between E-Board and Ambassadors. We answer any questions you may have about the program. We also welcome Mozilla employees to join and teach students about a particular topic of interest.</p>
