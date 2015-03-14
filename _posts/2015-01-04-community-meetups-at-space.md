@@ -2,7 +2,7 @@
 layout: post
 title: "Open Source & Community Meetups"
 date: 2015-01-04 00:00:03
-summary: Community events and metups happening at the space
+summary: Community events and metups happening at the space...
 categories: meetup
 ---
 

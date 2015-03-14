@@ -5,8 +5,8 @@ permalink: /blog/
 ---
 
 [CodeDev Workshop Series]({% post_url 2015-03-08-code-dev-series %})<br>
-[FirefoxOS For Everyone]({% post_url 2015-02-26-firefoxos-for-everyone %})<br>
 [FSA Office Hours]({% post_url 2015-03-07-fsa-office-hours %})<br>
+[FirefoxOS For Everyone]({% post_url 2015-02-26-firefoxos-for-everyone %})<br>
 [Mozilla L10N Meetup]({% post_url 2015-02-15-mozilla-l10n-meetup %})<br>
 [Firefox OS - The Bachchao Project]({% post_url 2015-02-08-firefoxos-bachchao-project %})<br>
 [Open Source & Community Meetups]({% post_url 2015-01-04-community-meetups-at-space %})<br>

@@ -2,7 +2,7 @@
 layout: post
 title: "Bangalore Design Evenings"
 date: 2014-12-22 00:00:01
-summary: To enable interactive discussions
+summary: To enable interactive discussions...
 categories: design
 ---
 

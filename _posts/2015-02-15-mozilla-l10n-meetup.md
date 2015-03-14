@@ -2,7 +2,7 @@
 layout: post
 title: "Mozilla L10N Sprint"
 date: 2015-02-15 00:00:03
-summary: L10N hackathon in India
+summary: L10N hackathon in India...
 categories: l10n
 ---
 

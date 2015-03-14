@@ -2,7 +2,7 @@
 layout: post
 title: "FirefoxOS - Bachchao Project"
 date: 2015-02-08 00:00:03
-summary: Building social impact apps for FirefoxOS
+summary: Building social impact apps for FirefoxOS...
 categories: firefoxoshackathon
 ---
 

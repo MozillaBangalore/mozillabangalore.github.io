@@ -2,7 +2,7 @@
 layout: post
 title: "FSA Office Hours"
 date: 2015-03-07 00:00:03
-summary: Now we are hosting Office Hours every month
+summary: Now we are hosting Office Hours every month...
 categories: fsa
 ---
 
