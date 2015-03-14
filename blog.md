@@ -14,7 +14,7 @@ permalink: /blog/
 * 11/16/14 - [Firefox OS Intensive Workshop]({% post_url 2014-11-16-firefoxos-intensive-workshop %})<br>
 * 11/26/14 - [Announcing Mozilla Community Space Bangalore]({% post_url 2014-11-26-announcing-mozilla-community-space-bangalore %})
 
-<p align="justify"><h3>Past Events</h3></p>
+<p align="justify"><h4>Past Events</h4></p>
 
 <ul>	
     <li>11/15/14 - <a href="https://reps.mozilla.org/e/mozcoffee-bangalore-v9-0/">FirefoxOS Intensive Workshop</a></li>
