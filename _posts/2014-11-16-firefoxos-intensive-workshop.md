@@ -12,7 +12,7 @@ categories: firefoxoshackathon
 <center><blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/hashtag/FxOSIntensive?src=hash">#FxOSIntensive</a> workshop came to an end today. Make sure to share your learnings/apps/hacks with the world. <a href="http://t.co/dx9ETjkYst">pic.twitter.com/dx9ETjkYst</a></p>&mdash; MozSpace Bangalore (@MozSpaceBLR) <a href="https://twitter.com/MozSpaceBLR/status/534011383059193857">November 16, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></center>
 
-<p align="justify">All the participants who joined the event received a FirefoxOS phone to start hacking on it. The participants understood and grabbed knowledge on creating and publishing the apps to the Marketplace by end of the worshop</p>
+<p align="justify">All the participants who joined the event received a FirefoxOS phone to start hacking on it. The participants understood and grabbed knowledge on creating and publishing the apps to the Marketplace by end of the workshop</p>
 
 <figure>
 <center><img src="https://pbs.twimg.com/media/B1xnh54CIAA2vlZ.jpg">
